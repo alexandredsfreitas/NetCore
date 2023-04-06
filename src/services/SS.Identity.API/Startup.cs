@@ -6,11 +6,13 @@ namespace SS.Identity.API
 {
     public class Startup : IStartup
     {
+        public IConfiguration Configuration { get; }
+
         public Startup(IHostEnvironment hostEnvironment)
         {
             var builder = new ConfigurationBuilder()
                 .SetBasePath(hostEnvironment.ContentRootPath)
-            .AddJsonFile("appsettings.json", true, true)
+                .AddJsonFile("appsettings.json", true, true)
                 .AddJsonFile($"appsettings.{hostEnvironment.EnvironmentName}.json", true, true)
                 .AddEnvironmentVariables();
 
@@ -21,8 +23,6 @@ namespace SS.Identity.API
 
             Configuration = builder.Build();
         }
-
-        public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services) 
         {
@@ -54,7 +54,8 @@ namespace SS.Identity.API
     {
         public static WebApplicationBuilder UseStartup<TStartup>(this WebApplicationBuilder WebAppBuilder) where TStartup : IStartup
         {
-            var startup = Activator.CreateInstance(typeof(TStartup), WebAppBuilder.Configuration) as IStartup;
+            //var startup = Activator.CreateInstance(typeof(TStartup), WebAppBuilder.Configuration) as IStartup;
+            var startup = Activator.CreateInstance(typeof(TStartup), WebAppBuilder.Environment) as IStartup;
             if (startup == null) throw new ArgumentException("Invalid Startup.cs class");
 
             startup.ConfigureServices(WebAppBuilder.Services);
