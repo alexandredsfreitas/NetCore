@@ -1,34 +1,43 @@
-﻿namespace SS.Identity.API
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+using SS.Identity.API.Configuration;
+
+namespace SS.Identity.API
 {
-    public class Statup : IStartup
+    public class Startup : IStartup
     {
-        public Statup(IConfiguration configuration)
+        public Startup(IHostEnvironment hostEnvironment)
         {
-            Configuration = configuration;
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(hostEnvironment.ContentRootPath)
+            .AddJsonFile("appsettings.json", true, true)
+                .AddJsonFile($"appsettings.{hostEnvironment.EnvironmentName}.json", true, true)
+                .AddEnvironmentVariables();
+
+            if (hostEnvironment.IsDevelopment())
+            {
+                builder.AddUserSecrets<Startup>();
+            }
+
+            Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
 
         public void ConfigureServices(IServiceCollection services) 
         {
-            services.AddControllers();
-            services.AddEndpointsApiExplorer();
-            services.AddSwaggerGen();
+            services.AddIdentityConfiguration(Configuration);
+
+            services.AddApiConfiguration();
+
+            services.AddSwaggerConfiguration();
         }
 
         public void Configure(WebApplication app, IWebHostEnvironment environment) 
         {
-            if (app.Environment.IsDevelopment()) 
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            app.UseSwaggerConfiguration();
 
-            app.UseHttpsRedirection();
-
-            app.UseAuthorization();
-
-            app.MapControllers();
+            app.UseApiConfiguration(environment);
         }
     }
 
