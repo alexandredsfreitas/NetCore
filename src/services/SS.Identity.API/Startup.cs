@@ -54,6 +54,7 @@ namespace SS.Identity.API
     {
         public static WebApplicationBuilder UseStartup<TStartup>(this WebApplicationBuilder WebAppBuilder) where TStartup : IStartup
         {
+
             //var startup = Activator.CreateInstance(typeof(TStartup), WebAppBuilder.Configuration) as IStartup;
             var startup = Activator.CreateInstance(typeof(TStartup), WebAppBuilder.Environment) as IStartup;
             if (startup == null) throw new ArgumentException("Invalid Startup.cs class");
