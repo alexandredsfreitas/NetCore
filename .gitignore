@@ -1,7 +1,9 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
 /src/services/SS.Identity.API/obj
 /src/services/SS.Identity.API/bin
 /.vs
+src/web/SS.WebApp.MVC/obj/
+src/web/SS.WebApp.MVC/bin/
