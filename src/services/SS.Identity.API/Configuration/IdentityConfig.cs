@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using SS.Identity.API.Data;
 using SS.Identity.API.Extensions;
+using SS.WebAPI.Core.Identity;
 using System.Text;
 
 namespace SS.Identity.API.Configuration

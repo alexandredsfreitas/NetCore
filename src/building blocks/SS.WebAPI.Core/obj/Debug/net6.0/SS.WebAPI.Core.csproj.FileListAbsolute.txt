@@ -1,0 +1,12 @@
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/bin/Debug/net6.0/SS.WebAPI.Core.deps.json
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/bin/Debug/net6.0/SS.WebAPI.Core.dll
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/bin/Debug/net6.0/SS.WebAPI.Core.pdb
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/obj/Debug/net6.0/SS.WebAPI.Core.csproj.AssemblyReference.cache
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/obj/Debug/net6.0/SS.WebAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/obj/Debug/net6.0/SS.WebAPI.Core.AssemblyInfoInputs.cache
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/obj/Debug/net6.0/SS.WebAPI.Core.AssemblyInfo.cs
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/obj/Debug/net6.0/SS.WebAPI.Core.csproj.CoreCompileInputs.cache
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/obj/Debug/net6.0/SS.WebAPI.Core.dll
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/obj/Debug/net6.0/refint/SS.WebAPI.Core.dll
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/obj/Debug/net6.0/SS.WebAPI.Core.pdb
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/obj/Debug/net6.0/ref/SS.WebAPI.Core.dll

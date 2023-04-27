@@ -1,0 +1,12 @@
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/bin/Debug/net6.0/SS.Core.deps.json
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/bin/Debug/net6.0/SS.Core.dll
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/bin/Debug/net6.0/SS.Core.pdb
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/obj/Debug/net6.0/SS.Core.csproj.AssemblyReference.cache
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/obj/Debug/net6.0/SS.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/obj/Debug/net6.0/SS.Core.AssemblyInfoInputs.cache
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/obj/Debug/net6.0/SS.Core.AssemblyInfo.cs
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/obj/Debug/net6.0/SS.Core.csproj.CoreCompileInputs.cache
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/obj/Debug/net6.0/SS.Core.dll
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/obj/Debug/net6.0/refint/SS.Core.dll
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/obj/Debug/net6.0/SS.Core.pdb
+/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.Core/obj/Debug/net6.0/ref/SS.Core.dll

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "FcwBKV8zZ6qFUeQgACUImbtMVA4xNK1phXlObiFX6omFJUcqu+sT/vAGD8BHIwSr/61Gg+pC/8PZrrCFDZ8zlg==",
+  "success": true,
+  "projectFilePath": "/Users/alexandredsfreitas/Projects/NetCore/src/building blocks/SS.WebAPI.Core/SS.WebAPI.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/alexandredsfreitas/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.10/microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",
+    "/Users/alexandredsfreitas/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/alexandredsfreitas/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.10.0/microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",
+    "/Users/alexandredsfreitas/.nuget/packages/microsoft.identitymodel.logging/6.10.0/microsoft.identitymodel.logging.6.10.0.nupkg.sha512",
+    "/Users/alexandredsfreitas/.nuget/packages/microsoft.identitymodel.protocols/6.10.0/microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "/Users/alexandredsfreitas/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.10.0/microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "/Users/alexandredsfreitas/.nuget/packages/microsoft.identitymodel.tokens/6.10.0/microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
+    "/Users/alexandredsfreitas/.nuget/packages/system.identitymodel.tokens.jwt/6.10.0/system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "/Users/alexandredsfreitas/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
